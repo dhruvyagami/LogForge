@@ -1,0 +1,31 @@
+# Build directories
+build/
+build_*/
+bin/
+out/
+
+# Compiled Object files, libraries, executables
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.exe
+/indexer
+/indexer_tests
+/indexer_bench
+
+# Temporary test and benchmark files
+*.tmp*
+*.idx
+*.log
+bench_corpus/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
